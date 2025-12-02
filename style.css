@@ -1,0 +1,83 @@
+
+.link-hover-red:hover{
+    color:red!important;
+}
+.text-justify
+{
+text-align: justify;
+}
+.icon-box {
+  color: white;
+  border: 2px solid white;
+  #border-radius: 50%;
+  padding: 20px;
+  font-size: 40px;         
+  width: 80px;             
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;  
+}
+#contact
+{
+  height: 350px;
+  background-image: url('../img/p11.jpg');
+  background-size: cover;
+
+
+}
+#contact .col-sm-12
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* background-color: rgba(0,0,0,0.5);*/
+  backdrop-filter: blur(5px);
+}
+
+/* login page ka style */
+
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background-color: #00bfff;
+  border: none;
+}
+
+.btn-outline-primary {
+  border: 2px solid #00bfff;
+  color: #00bfff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #00bfff;
+  color: white;
+}
+
+
+/* login page ka style */
+.newscard2 div{
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+.newscard2
+{
+  transition: .5s ease;
+}
+.newscard2:hover img
+{
+  transform: scale(1.2);
+}
+.newscard
+{
+  transition: .5s ease;
+}
+.newscard:hover
+{
+  transform: translateY(-20px);
+}
